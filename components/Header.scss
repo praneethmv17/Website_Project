@@ -1,0 +1,67 @@
+// components/Header.scss
+
+.Header {
+  display: inline-block;
+  width: 100%;
+  padding: 0 20px;
+  background: crimson;
+}
+
+.TopMenu {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: white;
+  padding: 5px 5px;
+  font-size: 12px;
+}
+
+#Language {
+  padding: 5px 5px;
+}
+
+#Store {
+  padding: 5px 5px;
+  margin-left: 70%;
+  justify-content: flex-end;
+}
+
+#Newsletter {
+  position: relative;
+  padding: 5px 5px;
+  justify-content: flex-end;
+}
+
+.Title {
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.MenuItems {
+
+  display: flex;
+  justify-content: center;
+
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 1em;
+}
